@@ -1,0 +1,291 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+.row::after {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.h-10{
+    margin-top: 40px;
+}
+/*
+==========================================
+    Menu Css
+==========================================
+*/
+.menu {
+    color: #E86522;
+}
+/*
+==========================================
+    Mumanu Css
+==========================================
+*/
+.Right-content-img{
+    margin-left: 265px;
+    box-shadow: 10px 10px 40px 10px rgb(184, 174, 174);
+    position: absolute;
+    z-index: -1;
+}
+.Left-content-img{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.Left-content-Despt{
+    margin-top: 45px;
+    padding: 10px;
+    text-align: center;
+}
+/*
+==========================================
+    WHO WE ARE Css
+==========================================
+*/
+.left-img{
+   padding-right: 100px;
+}
+.right-content{
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px;
+    margin-left: 40px;
+}
+/*
+==========================================
+    MISSION Css
+==========================================
+*/
+.fist-content{
+    /* background-image: url('../img/right_Path.png'); */
+}
+.fist-content p{
+    color: #ffff;
+  
+}
+.third-content{
+    /* background-image: url('../img/left_Path.png'); */
+}
+.third-content p{
+    color: #ffff;
+    margin-top: 10px;
+}
+
+.content{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.fist-content {
+    position: absolute;
+    bottom: 15px;
+    margin-left: 40px;
+    text-align: left;
+    font-size: 12px;
+}
+.third-content{
+    position: absolute;
+    bottom: 7px;
+    margin-left: 60px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+.mission-content-wrap{
+    margin-top: 150px;
+    margin-right: 50px;
+}
+.vision-content-wrap{
+   margin-top: 300px;
+   margin-left: 20px;
+}
+.vision-content-wrap h3{
+    margin-top: 350px;
+    margin-left: 255px;
+ }
+ .sub-mission{
+     position: relative;
+ }
+ .sub-mission-img{
+    margin-top: 30px;
+    margin-left: 50px;
+ }
+
+ .sub-mission-content {
+    margin-bottom: 1px;
+    margin-left: 140px;
+    position: absolute;
+    top: 0px;
+    /* overflow: hidden; */
+ }
+ .sub-mission-content p {
+    font-size: 14px;
+ }
+/*
+==========================================
+    MUMAAU Css
+==========================================
+*/
+ .text-image{
+     margin-left: 300px;
+     margin-top: 30px;
+ }
+ /*
+==========================================
+    FOOTER Css
+==========================================
+*/
+ footer{
+     background-color: #E86522;
+ }
+ .footer-content p ,h6 ,h5, small{
+    color: #fff;
+ }
+
+.first-footer-content p{
+    font-size: 12px;
+ }
+.first-footer-content h5{
+    margin-bottom: 15px;
+ }
+.second-footer-content p{
+    font-size: 12px;
+}
+.second-footer-content h5{
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+.third-footer-content p{
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.third-footer-content h5{
+    margin-bottom: 20px;
+}
+.footer-content i{
+    color: #fff;
+ }
+.border-line{
+    text-decoration: none;
+    display: block;
+    padding: 7px 10px;
+    border-bottom: 1.5px solid #FFFFFF;
+    margin-right: 20px;
+ }
+.icon-phone{
+     margin-left: 50px;
+     font-size: 35px;
+ }
+.footer-phone{
+     font-size: 14px;
+     margin-top: 20px;
+     margin-left: 10px;
+ }
+.icon-address i{
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-top: 50px;
+    font-size: 35px;
+ }
+ .footer-address h6{
+    margin-top: 20px;
+    margin-left: 30px;
+ }
+ .footer-address p{
+    font-size: 14px;
+ }
+ .icon-email{
+    margin-left: 70px;
+    font-size: 27px;
+ }
+ .border-line-email{
+    text-decoration: none;
+    display: block;
+    padding: 7px 10px;
+    border-bottom: 1.5px solid #FFFFFF;
+    margin-left: 20px;
+    margin-top: 13px;
+ }
+ .footer-email{
+    font-size: 14px;
+    margin-top: 20px;
+ }
+ .icon-factory i{
+    margin-top: 92px;
+    margin-left: 70px;
+    font-size: 35px;
+ }
+.footer-factory h6{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.footer-factory p{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.border-line-factory{
+    text-decoration: none;
+    display: block;
+    padding: 7px 10px;
+    border-bottom: 1.5px solid #FFFFFF;
+    margin-left: 20px;
+}
+.footer-copyright p{
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-left: 420px;
+}
